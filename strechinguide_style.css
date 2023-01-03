@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+	size: 100%;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+/*top navigation bar*/
+.navigation{
+	background-color: whitesmoke;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	margin: 0px 20px;
+	padding: 0 150px;
+	font-size: 1.3em;
+	z-index: 5;
+}
+nav a:hover {
+	text-decoration: none;
+	margin: 0px 20px;
+	padding: 0 150px;
+	font-size: 1.3em;
+	z-index: 5;
+	color: rgb(201, 198, 198);
+}
+/*if you want to space between sections - margin top this element*/
+div {
+	position: relative;
+	top: 70px;
+	bottom: 50px;
+	margin-top: 350px;
+}
+
+.welcome {
+	height: 1200px;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+}
+.welcome p{
+    font-size: 25px;
+    position: relative;
+    top: -500px;
+    color:black;
+    font-weight: bold;
+	padding: 5px;
+}
+.welcome h1 {
+	background-color: #a3a9ac;
+	color: black;
+	border-bottom: 1px solid black;
+	height: 60px;
+	text-align: center;
+	width: 100%;
+	position: relative; /*have to stay*/
+	z-index: 10;
+    font-size: 45px;
+    padding: 5px;
+}
+.welcome_background_pic{
+	width: 100%;
+	height: 730px;
+	opacity: 0.5;
+	object-fit: cover;
+	display: block;
+}
+
+.howItsWork {
+	position: relative;
+	top: -487px;
+	margin: 0px;
+    margin-bottom: 300px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 18px;
+	
+}
+.howItsWork h2{
+    z-index: 1;
+}
+.howItsWork p{
+	position: relative;
+	opacity: 1;
+	z-index: 1;
+    top: 80px;
+}
+/*background of how its work section*/
+.backgroundPic{
+	opacity: 0.5;
+	width: 100%;
+	height: 450px;
+	position: relative;
+	top: -203px;
+	object-fit: cover;
+	margin: 0;
+	display: block;
+}
+.flowContent {
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	top:60px;
+	bottom: 70px;
+	margin-top: 14px;
+	margin-bottom: 120px;
+	background-color: whitesmoke;
+	width: 100%;
+}
+/* the main section contain the model area (instraction + model + model navigation) */
+.main{
+	position: relative;
+	top: -700px !important;
+}
+/*model section*/
+model-viewer {
+	position: relative;
+	width: 600px;
+	height: 625px;
+    border: 10px solid grey;
+	overflow: visible;
+}
+.modelSection{
+    position: relative;
+    margin-bottom: 150px;
+}
+.modelBox {
+	border: 0px solid black;
+	float: left;
+	width: 49%;
+	box-sizing: border-box;
+	margin-bottom: 0;
+    position: relative;
+    top: -600px;
+}
+.instructions {
+	margin-top: 85px;
+	margin-left: 35px;
+	text-align: left;
+	margin-bottom: 0px;
+	font-size: 20px;
+	font-weight: 600;
+	
+}
+.muscle-navigation{
+    display: inline-block;
+    width: 100%;
+    margin-left:11%  ;
+    font-size: 25px;
+	position: relative;
+	top: 150px;	
+}
+.muscle-chose{
+    margin-left: 50px;
+    margin-bottom: 25px;
+    position: relative;
+	color: white;
+    top: -700px;
+	padding: 5px;
+    border: 2px solid #393d45;
+}
+.muscle-chose:hover{
+    background-color: #393d45;
+    color: black;
+}
+/* .muscle-chose:visited{
+	color: none;
+} */
+
+
+.exercises{
+	position: relative;
+	top: -750px;
+	height: 10500px;
+}
+.result h2{
+    position: relative;
+    top: -650px;
+	z-index: 25;
+}
+.exr-img{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    margin-left: 9%;
+    top: -700px;
+}
+
+.guide p{
+    margin-left: 160px;
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    top: -600px;
+	margin-bottom: 100px;
+    width: 270px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+/*contain daily tip and contact*/
+footer{
+	position: relative;
+}
+
+img /* linkedin logo */{
+	width: 12px;
+	height: 12px;
+}
+/*dont touch*/
+.dailyTip {
+	position: relative;
+	top: 0px;
+	text-align: center;
+	border: 4px solid grey;
+	width: 40%;
+	bottom: 70px;
+	margin: 150px auto;
+	padding: 6px;
+}
+.dailyTip:hover{
+	background-color: grey;
+}
+.contactMe {
+	position: relative;
+	top: 70px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/*hyperlink to linkedin*/
+
+.link:hover{
+	color: black;
+}
+.link:visited{
+	color: black;
+}
+
+/*title of model - lets get start*/
+#model{
+	position: relative;
+	top: -1000px;
+	margin: 0;
+    background-color: whitesmoke;
+}
+
+/*muscles navigation*/
+#soleus{
+	background-color: rgba(208, 9, 230, 0.801);
+}
+#tibialis-anterior{
+	background-color: rgba(251, 239, 74, 0.832);
+}
+#hamstrings{
+	background-color: rgba(8, 38, 232, 0.919);
+}
+#quadriceps{
+	background-color: rgba(56, 143, 230, 0.5);
+}
+#abductor{
+	background-color: rgba(4, 9, 157, 0.868);
+}
+#sartorius{
+	background-color: rgba(0, 83, 250, 0.864);
+}
+#external-oblique{
+	background-color: rgba(165, 170, 10, 0.795);
+}
+#serratus{
+	background-color: rgba(85, 7, 0, 0.874);
+}
+#abdominal-Muscles{
+	background-color: rgb(2, 41, 4);
+}
+#latissimus-dorsi{
+	background-color: rgba(236, 131, 20, 0.885);
+}
+#deltoid{
+	background-color: rgba(174, 251, 146, 0.8);
+}
+#pectoralis-major{
+	background-color: rgba(205, 158, 126, 0.926);
+}
+#trapezius{
+	background-color: rgba(153, 11, 4, 0.879);
+}
+
+
+
+

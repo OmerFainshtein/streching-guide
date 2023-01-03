@@ -1,0 +1,475 @@
+<!--type of flow we looking to: https://www.w3schools.com/html/html_layout.asp -->
+<!DOCTYPE html>
+<!--link to CSS file-->
+<link rel="stylesheet" href="strechinguide_style.css" type="text/css">
+<!-- for the model -->
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script src="strechinguide.js"></script>
+
+	<head><!--tab title of the website-->
+		<title>stretching guide</title>
+	</head>
+	<body>
+		<!--main nav list - will stick to the top of the page after scrolling the main title-->
+		<nav class="navigation">
+			<a href='#myStory'><strong>my story</strong></a>
+			<a href='#model'><strong>The model</strong></a>
+			<a href="#contact"><strong>contact</strong></a>
+		</nav>
+		<!--head section contain the story of the site and his purpose-->
+		<header class="welcome">
+		    <h1 id="myStory"><strong>Welcome</strong> to your new strtching guide</h1>
+			<img src="/media/backgrounds/Shati_Bamidbar2019.JPG" class="welcome_background_pic">
+			<p>
+				My name is Omer Fainshtein and I have been an amateur triathlete for about 5 years<br><br><br>
+				During my training, it often happened that a not very common muscle getting sore and I had
+				to spend time searching websites to find exercises that would be relevant to this specific muscle<br><br><br>
+				Following this - I developed a website that provides information and exact exercises for the muscle you choose
+			</p>
+	</header>
+		<!--secondrey title-->
+		<div class="howItsWork">
+			<h2 class="flowContent">So, how does it work?</h2>
+		<!--explain the user how it's going to work-->
+			<p>With the 360 model of the human    
+				body found down here <br> you can visually choose the specific  area you want to focus on today<br>
+				Within one click you will immediately receive a 3 exercises and instractions related to the specific muscle you have chosen<br> thus you can achieve an efficient, effective and easy-to-use stretching workout.
+			</p>
+			<img src="/media/backgrounds/streching.jpeg" class="backgroundPic">
+		</div>
+		<main>
+			<h2 class="flowContent" id="model">lets get start!</h2>
+			<div class="main">
+				<!--instruction for the area selction-->
+				<section class="modelSection">
+					<ol class="modelBox"> <!-- this section need to be on the right side of the page-->
+						<li class="instructions">With the help of the mouse - rotate the model as you wish</li><br>
+						<li class="instructions">Below the model there is a link to each of the numbered muscles<br> click on the muscle number you want to focus</li><br>
+						<li class="instructions">Do the exercises that are adapted to the area you have chosen</li><br>
+						<li class="instructions">you can easly return to model by clicking 'the model' on the navigation bar</li><br>
+					</ol>
+					<box class="modelBox">
+						<!-- progress update - the first time i manage to upload a 3D model was when the src was : 'https://modelviewer.dev/shared-assets/models/NeilArmstrong.glb' -->
+						<model-viewer class='model'  src="/media/3D model/2.1.23 04.glb"  camera-controls>
+						</model-viewer>
+					</box>
+				</section>
+				<section class="muscle-navigation">
+					<a href='#Soleus' class="muscle-chose" id="soleus">1</a>
+					<a href='#Tibialis anterior' class="muscle-chose" id="tibialis-anterior">2</a>
+					<a href='#Hamstrings' class="muscle-chose" id="hamstrings">3</a>
+					<a href='#Quadriceps' class="muscle-chose" id="quadriceps">4</a>
+					<a href='#Abductor' class="muscle-chose" id="abductor">5</a>
+					<a href='#Sartorius' class="muscle-chose" id="sartorius">6</a>
+					<a href='#External oblique' class="muscle-chose" id="external-oblique">7</a>
+					<a href='#Serratus' class="muscle-chose" id="serratus">8</a>
+					<a href='#Abdominal Muscles' class="muscle-chose" id="abdominal-Muscles">9</a>
+					<a href='#Latissimus dorsi' class="muscle-chose" id="latissimus-dorsi">10</a>
+					<a href='#Deltoid' class="muscle-chose" id="deltoid">11</a>
+					<a href='#Pectoralis major' class="muscle-chose" id="pectoralis-major">12</a>
+					<a href='#Trapezius' class="muscle-chose" id="trapezius">13</a>
+				</section>
+			</div>
+			<div class="exercises">
+			<section class="result">
+				<h2 class="flowContent" id="Soleus">Soleus</h2>
+				<section class='img'>
+					<img class="exr-img" src="media/exersices/1/center.jpg">
+					<img class="exr-img" src="/media/exersices/1/left.jpg">
+					<img class="exr-img" src="media/exersices/1/right.jpg">
+				</section>
+				<article class="guide">
+					<p>This exercise is best done on a step. 
+						Stand with the ball of your foot on the step. Keep your knees straight, 
+						and do not bend them! You will need something to hold onto keep your balance, like a rail, or a wall, or the back of a chair.
+						Let your heels drop until a stretch is felt at the back of the lower leg, and behind the knees.
+						Hold the stretch for 10-15 seconds.<br><br><br>
+						repeat this exercise 1-3 times per day
+					</p>
+					<p>Sit on the floor with your out in front of you. Wrap the towel around the ball of your foot just below your toes.
+						Gently pull on the towel, allowing your foot to slowly bend up toward your knee while keeping your knee straight.
+						You should feel a slight stretching feeling in the back of your leg. Hold the stretched position for 6 counts, then slowly release and repeat.<br><br>
+						repeat this exercise 15 times per day.
+					</p>
+					<p>Stand facing a wall from 3 feet away. Take one step toward the wall with your right foot.
+						Place both palms on the wall. Bend both knees and lean forward. Keep both heels on the floor.
+						Hold for 30 to 60 seconds. Then relax both legs. Repeat the exercise 2 times. Switch legs and repeat.<br><br><br>
+						Repeat this exercise 3 times a day, or as instructed.</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Tibialis anterior">Tibialis anterior</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/2/center.png">
+					<img class="exr-img" src="/media/exersices/2/left.png">
+					<img class="exr-img" src="/media/exersices/2/right.png">
+				</section>
+				<article class="guide">
+					<p>This stretch is similar to the lying quadriceps stretch.
+						Lie on your one side. Now, bend your upper knee so your foot is behind your back.
+						Reach back and grasp your forefoot, pulling it towards your back.
+						Hold for 10 to 20 seconds.<br><br><br><br><br><br><br><br>
+						Repeat for both feet.
+					</p>
+					<p>Get into a kneeling position.
+						Keep your feet hip-width apart, and your toes turned slightly inward.
+						Keep your back straight, and shoulder blades slightly pinched together.
+						Keep your neck neutral.
+						Sit back on the heels of your feet.<br><br><br><br><br><br><br>
+						Hold this position for about 30 seconds.
+						Rest and repeat.
+					</p>
+					<p>Stand tall. You need to use a hand on a wall or other support for balance.
+						Slightly bend your both knees.
+						The right foot remains squarely on the floor. The foot to be stretched or left foot is placed just behind this stable/right foot, with the toe of the left foot touching the floor.
+						Keeping your toe firmly on the floor, pull the left leg forward so you feel a stretch from the top of your left foot through your shins.
+						Once you feel a stretch, hold it for 10 to 30 seconds.
+						<br><br>Repeat the stretch with the right foot.</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Hamstrings">Hamstrings</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/3/center.png">
+					<img class="exr-img" src="/media/exersices/3/left.png">
+					<img class="exr-img" src="/media/exersices/3/right.png">
+				</section>
+				<article class="guide">
+					<p>Pick a stretch, and rock slowly back and forth into the stretch several times.
+						Focus on having an even, steady breath.<br><br><br><br><br><br>
+						Every few repetitions, hold the stretch for a bit and see where you’re at.
+					</p>
+					<p>Sit on the floor with one leg straight in front of you while you bend the other leg inside as shown in the picture.
+						Keep the extended leg straight while pushing down on the floor with your bent leg.
+						Slowly lower your upper torso down and try to touch the extended leg's knee with your head.
+						hold it for about 45 second
+						<br><br>
+						repeat 3 time per leg
+					</p>
+					<p>Lie on the floor near the outer corner of a wall or a door frame.
+						Raise your left leg and rest your left heel against the wall. Keep your left knee slightly bent.
+						Gently straighten your left leg until you feel a stretch along the back of your left thigh.
+						Hold for about 30 seconds.
+						<br><br><br><br>
+						Switch legs and repeat.
+					</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Quadriceps">Quadriceps</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/4/center.png">
+					<img class="exr-img" src="/media/exersices/4/left.png">
+					<img class="exr-img" src="/media/exersices/4/right.png">
+				</section>
+				<article class="guide">
+					<p>Let your upper body descend backwards and rest on your hands, arms outstretched.
+						Bring the hips forward as high as possible and feel the stretch in the front of the thighs.<br><br><br><br><br><br><br><br>
+						Hold the position for 5 seconds</p>
+					<p>Begin lying on your front.
+						Bend one leg toward your body, grasp it with your hand, and pull it further until you
+						feel a stretch in the front of your thigh and hold.<br><br><br><br><br><br>
+						Make sure to continue breathing evenly during the stretch. Do not arch your low
+						back.
+					</p>
+					<p>Sit with your right leg bent, with your right heel just to the outside of your right hip. 
+						The left leg is bent and the sole of your left foot is next to the inside of your upper right leg. 
+						(Try not to let your right foot flare out to the side in this position.)
+						Now slowly lean straight back until you feel an easy stretch in your right quadriceps.
+						Use your hands for balance and support.
+						Hold an easy stretch for 30 seconds. Do not hold any stretches that are painful.</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Abductor">Abductor</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/5/center.png">
+					<img class="exr-img" src="/media/exersices/5/left.png">
+					<img class="exr-img" src="/media/exersices/5/right.png">
+				</section>
+				<article class="guide">
+					<p>Sit on the floor with your side against the wall. Lift your legs up onto the wall as you roll over onto your back.
+						 With your buttocks touching the wall, spread your legs apart, resting on the wall.
+						 Place your arms where it is most comfortable.<br><br><br><br> Hold for 10-30 seconds.</p>
+					<p>Sit on the floor. Put the soles of your feet together so your knees are pointed outward.
+						Pull your heels in toward your groin, as close as is comfortable.				
+						Put your hands on your knees, and gently push them closer to the floor.				
+						Hold for 30 to 60 seconds.				
+						Relax and repeat 2 times, or as instructed.<br><br>
+						Repeat this exercise 3 times a day</p>
+					<p>standing with your feet placed wide apart, in an A-stance position
+						keeping the body upright, move the body and pelvis off to one side, standing more over one foot
+						move to the point at which you feel a comfortable stretch on the inner side of the thigh of the outstretched leg<br><br><br>
+						hold and repeat as needed</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Sartorius">Sartorius</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/6/left.png">
+					<img class="exr-img" src="/media/exersices/6/center.png">
+					<img class="exr-img" src="/media/exersices/6/right.png">
+				</section>
+				<article class="guide">
+					<p>Hold onto the pole with one hand, while standing next to a pole or door jam.
+						 Keep your feet together, and lean your hips away from the pole.
+						 Keep your outside leg straight and bend your inside leg slightly.<br><br><br><br></p>
+					<p>lay on your side with your elbow propped behind
+						extend one leg in front of you and one leg behind
+						pull the toes of the leg behind to try and reach your hips.
+						hold for 20 second in the maximum strech point and slowly relise
+						<br><br> repeat 3 times
+					</p>
+					<p>Stand next to a wall and take the leg closest to the wall diagonally back so that it rests on the top of the foot
+						Lean gently on the back leg and bend the front leg
+						Hold a stretch point for about 30 seconds
+						Replace legs<br><br>
+						Repeat this at least 3 times for each leg</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="External oblique">External oblique</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/7/left.png">
+					<img class="exr-img" src="/media/exersices/7/center.png">
+					<img class="exr-img" src="/media/exersices/7/right.png">
+				</section>
+				<article class="guide">
+					<p>Lie face down
+						Bring your hands close to your shoulders
+						Look forward
+						Push your body upwards with your arms keeping your hips on the ground<br><br><br><br><br><br>
+						hold about 15 second and repeat 5 times
+					</p>
+					<p>Start by lying prone on the floor with your hands underneath your shoulders.
+						Push your hips into the floor as you straighten your arms to lift your upper body off the ground.
+						Straighten your right arm and push yourself to the left until your feel a stretch in your obliques.<br><br><br>
+						Either hold for time or go side-to-side with control for reps.
+					</p>
+					<p>Lay down on an exercise mat or carpet with your back against the floor. Keep your right leg straight and bring your left leg up. Bend the knee, placing the left foot flat against the front of your right ankle. Stretch your arms out to your sides. Look to the left, then slowly twist your hips to the right.[7]
+						Hold the stretch for 15 seconds<br><br> then repeat 5 times on each side.
+					</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Serratus">Serratus</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/8/left.png">
+					<img class="exr-img" src="/media/exersices/8/center.png">
+					<img class="exr-img" src="/media/exersices/8/right.png">
+				</section>
+				<article class="guide">
+					<p>Hold onto something above you.
+						Bring your arm and shoulder blades backwards.
+						Allow your body to sink down.
+						Keep your shoulder completely relaxed.<br><br><br><br><br><br><br><br>
+						Hold for 30 seconds.</p>
+					<p>Place your hand onto a wall at shoulder height.
+						Assume a lunge position.
+						Pull your shoulder blade backwards.
+						Lean your body weight into the arm that is on the wall.
+						Turn your torso away from this side.<br><br><br><br><br><br><br>
+						Hold for 30 seconds.</p>
+					<p>Sit sideways on the floor.
+						Place your hand on the floor towards the side of you.
+						Keep this arm completely straight throughout this stretch.
+						Sink your body weight onto this arm.
+						Make sure to keep your shoulder completely relaxed.
+						Bow your torso towards this side.
+						Lift your hips slightly off the ground as you place more of your body weight onto the arm.<br><br>
+						Hold for 30 seconds.</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Abdominal Muscles">Abdominal Muscles</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/9/left.png">
+					<img class="exr-img" src="/media/exersices/9/center.png">
+					<img class="exr-img" src="/media/exersices/9/right.png">
+				</section>
+				<article class="guide">
+					<p>Start slowly and stretch your abs with caution. It’s very important that you don’t feel any pain while stretching. 
+						As you gain strength and flexibility, 
+						you’ll be able to stretch further.<br><br><br><br><br><br><br><br> Hold the stretch for 20 to 30 seconds and then release</p>
+					<p>Stand straight with your feet hip-width apart and look directly ahead of you.
+						Lift one arm up above your head and slowly bend sideways while reaching down with the opposite hand, until you feel a stretch at the side of your trunk.
+						Maintain the stretch without twisting or leaning forward. Slowly return to initial position.
+						For more support, you can stand next to a wall so your outstretched hand can use the wall as extra support.<br><br>
+						Hold the stretch for 20-30 seconds.</p>
+					<p>Sit down on a chair with your spine straight.
+						Rotate your body to one side and hold the position.
+						Can use the chair to help hold the position.
+						**Don’t push yourself into pain.<br><br><br><br><br><br><br><br><br><br>
+						Hold the stretch for 20-30 seconds.
+						</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Latissimus dorsi">Latissimus dorsi</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/10/left.png">
+					<img class="exr-img" src="/media/exersices/10/center.png">
+					<img class="exr-img" src="/media/exersices/10/right.png">
+				</section>
+				<article class="guide">
+					<p>Reach your hand down towards the middle back region.
+						Place your other hand onto the elbow of the hand that is reaching down the back.
+						Pull the elbow towards the midline.
+						Tilt your torso towards the side.<br><br><br><br><br><br><br><br><br><br>
+						Hold for 30 seconds.</p>
+					<p>Start in a crawling position.
+						Sit your buttocks on top of your ankles.
+						Stretch out both arms and place them in front of you as far away as possible.
+						Keep your lower back rounded.<br><br><br><br><br><br><br><br>
+						Hold for 30 seconds.
+						To stretch one Latissimus Dorsi at a time, reach out both arms to the opposite side.</p>
+					<p>** This exercise requires proper equipment<br><br>
+						Make sure you know the exact location of the Latissimus Dorsi muscle.
+						Lie down on your side.
+						Place the Latissimus Dorsi muscle directly on top of a foam roller.
+						Position your arm in an outstretched position.
+						Apply as much body weight onto the foam roller as tolerated.
+						Keep relaxed. Do not tense up.
+						Make sure to cover the entire length of the muscle.<br><br>
+						Continue for 2 minutes.
+					</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Deltoid">Deltoid</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/11/left.png">
+					<img class="exr-img" src="/media/exersices/11/center.png">
+					<img class="exr-img" src="/media/exersices/11/right.png">
+				</section>
+				<article class="guide">
+					<p>Hold a towel in your right hand and flex your right elbow with your right hand by your ear.
+						Reach behind with the left hand and grip the towel as far up as your can.
+						Pull up with the right hand and down with the left to create the stretch.<br><br><br>
+						Do for 30 seconds and repeat on the other side.</p>
+					<p>Kneel down by bending your knees and sitting on your feet.
+						Lie your torso over your thighs and with both arms lying above your head.
+						Bring the left arm underneath and across your body while reaching to the right.
+						Feel the stretch in your rear deltoids and lats.<br><br>
+						Hold for 60 seconds and repeat on the other side.</p>
+					<p>Stand up straight and bring the left arm behind you with its elbow bent to 90 degrees.
+						Place your left hand on your spine with fingers pointing up to the ceiling.
+						Use your right hand to support your forearm.
+						Repeat on the other side.<br><br><br><br>
+						30 seconds per side works well here.</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="Pectoralis major">Pectoralis major</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/12/left.png">
+					<img class="exr-img" src="/media/exersices/12/center.png">
+					<img class="exr-img" src="/media/exersices/12/right.png">
+				</section>
+				<article class="guide">
+					<p>Stand tall with feet shoulder width apart
+						Lift arms to your side to your rear, and interlock your fingers with your palms facing each other.
+						Push arms back and ups until you feel the stretch in your chest.<br><br><br><br><br><br><br><br><br><br><br><br>
+						 hold stretch for 10-30 seconds
+						</p>
+					<p>Stand 2-3 feet from your anchor point (wall, pole), with your feet shoulder width apart
+						Lift 1 arm to the anchor point at shoulder height, making contact with the palm of your hand
+						Push your arm straight back until you feel mild discomfort – hold 10-30 seconds
+						Recover and alternate arms until both sides are stretched
+						Now move your hand higher up the anchor point until your arm is at a 45˚ angle
+						Push your arm straight back until you feel mild discomfort.
+						<br><br>hold 10-30 seconds
+						Recover and alternate arms until both sides are stretched
+					</p>
+					<p>Stand approximately 6″ facing away from a doorway, with feet shoulder width apart
+						Grab the doorway behind you at a low angle (as shown)
+						Slowly extend your mid-section away from the door to feel the stretch in your chest  (You will feel a secondary stretch in your biceps)<br><br>
+						<br><br><br><br><br><br><br><br>
+						Hold stretch for 10-30 seconds</p>
+				</article>
+			</section>	
+			<section class="result" id="lastOne">
+				<h2 class="flowContent" id="Trapezius">Trapezius</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/13/left.png">
+					<img class="exr-img" src="/media/exersices/13/center.png">
+					<img class="exr-img" src="/media/exersices/13/right.png">
+				</section>
+				<article class="guide">
+					<p>Turn your head 45 degrees to the right
+						Reach over the top of your head with your right hand and cradle the back of your head with your fingers
+						Gently pull your head toward your right shoulder <br><br> hold for a count of 20-30 seconds
+						Repeat on the left side using your left hand<br><br>
+						Repeat 3 times on each side, twice daily
+					</p>
+					<p>Put your right arm behind you and grab it with your left hand. Pull the hand gently toward your left foot.
+						Tilt your left ear toward your left shoulder.<br><br><br><br><br><br><br>
+						 Hold and switch sides halfway through the exercise.
+					</p>
+					<p>Stand up straight. Reach your left arm across your chest and hold your right shoulder. Do the opposite with your right arm.
+						 Press down on your left shoulder with your right hand.
+						 As you do, lean your head to the right and forward to stretch out the muscle.
+						 <br><br><br><br><br>
+						  Hold the position for 30 seconds</p>
+				</article>
+			</section>	
+			<!-- <section class="result">
+				<h2 class="flowContent" id="שריר התאומים">שריר התאומים</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/5/center.png">
+					<img class="exr-img" src="/media/exersices/5/left.png">
+					<img class="exr-img" src="/media/exersices/5/right.png">
+				</section>
+				<article class="guide">
+					<p>Sit on the floor with your side against the wall. Lift your legs up onto the wall as you roll over onto your back.
+						 With your buttocks touching the wall, spread your legs apart, resting on the wall.
+						 Place your arms where it is most comfortable.<br><br><br><br> Hold for 10-30 seconds.</p>
+					<p>Sit on the floor. Put the soles of your feet together so your knees are pointed outward.
+						Pull your heels in toward your groin, as close as is comfortable.				
+						Put your hands on your knees, and gently push them closer to the floor.				
+						Hold for 30 to 60 seconds.				
+						Relax and repeat 2 times, or as instructed.<br><br>
+						Repeat this exercise 3 times a day</p>
+					<p>standing with your feet placed wide apart, in an A-stance position
+						keeping the body upright, move the body and pelvis off to one side, standing more over one foot
+						move to the point at which you feel a comfortable stretch on the inner side of the thigh of the outstretched leg<br><br><br>
+						hold and repeat as needed</p>
+				</article>
+			</section>	
+			<section class="result">
+				<h2 class="flowContent" id="שריר מעל התחת">שריר מעל התחת</h2>
+				<section class='img'>
+					<img class="exr-img" src="/media/exersices/5/center.png">
+					<img class="exr-img" src="/media/exersices/5/left.png">
+					<img class="exr-img" src="/media/exersices/5/right.png">
+				</section>
+				<article class="guide">
+					<p>Sit on the floor with your side against the wall. Lift your legs up onto the wall as you roll over onto your back.
+						 With your buttocks touching the wall, spread your legs apart, resting on the wall.
+						 Place your arms where it is most comfortable.<br><br><br><br> Hold for 10-30 seconds.</p>
+					<p>Sit on the floor. Put the soles of your feet together so your knees are pointed outward.
+						Pull your heels in toward your groin, as close as is comfortable.				
+						Put your hands on your knees, and gently push them closer to the floor.				
+						Hold for 30 to 60 seconds.				
+						Relax and repeat 2 times, or as instructed.<br><br>
+						Repeat this exercise 3 times a day</p>
+					<p>standing with your feet placed wide apart, in an A-stance position
+						keeping the body upright, move the body and pelvis off to one side, standing more over one foot
+						move to the point at which you feel a comfortable stretch on the inner side of the thigh of the outstretched leg<br><br><br>
+						hold and repeat as needed</p>
+				</article>
+			</section>	 -->
+			</div>
+		</main>
+		<!--in the footer section we will find the daily tip and contact details-->
+		<footer> 
+			<section class="dailyTip">
+				<button type="button" onclick="popTip()">click on text to see the tip of the day</button>
+			</section>
+			<h4 class="contactMe" id="contact">for any qustions or tips for improvement - contact me: <br>
+			<img src="/media/backgrounds/LinkedIn_logo.png" id="linkedinLogo"/> <a class='link' href="https://www.linkedin.com/in/omerfainshtein/" target="_blank">Omer Fainshtein </a> | e-mail: omer.fainshtein1@gmail.com | phone: 0549775186
+			</h4>
+		</footer>
+	</body>
+</html>
