@@ -2,7 +2,7 @@
 
 How to run the site on your computer:
 * Make sure you have python installed on your computer
-** For now - the site fit only laptop screen
+* For now - the site fit only laptop screen
 
 1. Download the 'streching-guide' directory from this git page
 2. Go into the zip file, copy the folder name 'streching-guide-main' and paste directly in downloads folder 
