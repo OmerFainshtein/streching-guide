@@ -10,4 +10,3 @@ How to run the site on your computer:
 3. Make sure that location on cmd is right (if not, you may have to progress folder by folder using the cd command / run cmd as administrator)
 4. In cmd - run 'python -m http.server'
 5. Open your internet and insert the url 'localhost:8000'
-6. Enjoy!
